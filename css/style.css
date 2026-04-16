@@ -1,0 +1,17 @@
+ .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+    body {
+        font-family: 'Inter', sans-serif;
+      min-height: max(884px, 100dvh);
+        font-family: 'Inter', sans-serif;
+            background-color: #f8f9ff;
+        }
+        h1, h2, h3, .headline {
+            font-family: 'Manrope', sans-serif;
+        }
+        /* No-Line Rule: Custom Scrollbar to avoid default ugly borders */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #dce9ff; border-radius: 10px; }
